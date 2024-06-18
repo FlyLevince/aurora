@@ -9,7 +9,7 @@ module.exports = defineConfig({
   devServer: {
     proxy: {
       '/api': {
-        target: 'https://www.linhaojun.top/api',
+        target: 'https://27q29c0066.goho.co/blog',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
